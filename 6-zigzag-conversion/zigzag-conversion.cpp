@@ -37,7 +37,7 @@ public:
         
         string result;
         int n = s.length();
-        int cycleLen = 2 * numRows ;
+        int cycleLen = 2 * numRows -2;
         
         for (int i = 0; i < numRows; i++) {
             for (int j = 0; j + i < n; j += cycleLen) {
